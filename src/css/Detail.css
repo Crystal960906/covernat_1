@@ -1,0 +1,452 @@
+/*공통*/
+* ul,ol, li {
+    list-style: none;
+}
+.sub_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.sub_left {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 900px;
+    position: sticky;
+    top:10px;
+
+}
+
+.sub_center {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.sub_right {
+    width: 30%;
+    margin-top: 120px;
+    height: 900px;
+    position: sticky;
+    top:1px;
+    margin-left: 60px ;
+}
+
+/*왼쪽*/
+.smallimgbox {
+    width: 40px;
+    height: 500px;
+    margin-right:50px ;
+
+}
+
+.smallimgbox  img {
+    width: 45px;
+    margin-top: 5px;
+}
+
+.smallimgbox::before {
+    content: '';
+    display:inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 1rem;
+    border-top: 0.1rem solid #333;
+    border-right: 0.1rem solid #333;
+    transform: rotate(-45deg);
+}
+
+.smallimgbox::after {
+    content: '';
+    display:inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 1rem;
+    border-top: 0.1rem solid #333;
+    border-right: 0.1rem solid #333;
+    transform: rotate(135deg);
+}
+
+
+/* 가운데 */
+.mySwiper {
+    width: 90%;
+    height: 700px;
+}
+
+.mySwiper img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+}
+
+/* 네비탭 (상세페이지/리뷰/큐앤에이)*/
+.nav-tabs{
+    margin-top: 60px;
+}
+/*오른쪽*/
+.infoArea tr td h4 {
+    font-size: 16px;
+}
+
+.infoArea .price {
+    font-size: 13px;
+    color: #a8a8a8;
+    text-decoration: line-through;
+    margin-top: 20px;
+    margin-bottom:-0px ;
+    font-weight: 600;
+}
+
+.infoArea .price_text {
+    width: 150px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #595858;
+    font-weight: 600;
+}
+
+.CodeMade {
+    height: 50px;
+    justify-content: center;
+    font-size: 13px;
+    color: #a8a8a8;
+    margin: 30px 0 30px 0;
+}
+
+.optionText {
+    font-size: 13px;
+    color: #a8a8a8;
+}
+
+.optionText span {
+    margin: 5px 20px 0 10px;
+}
+
+.itemDetail_img img {
+    width: 75px;
+}
+
+.size ul {
+    margin: 0 0 0 -32px;
+}
+
+.size li {
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px 1px 0px 0px;
+    vertical-align: middle;
+    background: transparent;
+    border: solid 1px black;
+    width: 45px;
+    height: 45px;
+}
+
+.size li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 13px;
+}
+
+.infoBottom {
+    padding: 0;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBottom button {
+    width: 276px;
+    height: 45px;
+    border: 1px solid black;
+}
+
+.infoBottom  .buybtn {
+    background-color: black;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.infoBottom  .cartbtn {
+    color: black;
+    background-color: #fff;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/*네이버 페이로 구매하기 버튼*/
+
+.naverbtn::before {
+    content: "";
+    display: block;
+    width: 95%;
+    border-bottom: 2px solid #000;
+}
+
+.naverbtn {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.npay_button {
+    position: relative !important;
+    margin: 0 !important;
+    padding: 11px 0 11px 86px !important;
+    zoom: 1 !important;
+}
+
+.npay_button  .npay_text {
+    display: block !important;
+    display: inline !important;
+    position: absolute !important;
+    top: 11px !important;
+    left: 0 !important;
+    width: 79px !important;
+    height: 36px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: url(../../public/img/sub_page/npay_sp_text.png) no-repeat !important;
+    background-size: 180px auto !important;
+}
+
+.npay_btn_item1{
+    width: 150px;
+    height: 37px;
+    background-color: #00c851;
+    background-image: url(../../public/img/sub_page/npay_sp_payment.png) !important;
+    background-position: 50% 0 ;
+    background-repeat: no-repeat;
+    background-size: 63px auto;
+}
+
+.npay_btn_item2 {
+    display: block;
+    width: 37px;
+    height: 37px; 
+    margin: 0 0 0 3px;
+    padding: 0 ;
+    border: 1px solid #ccc;
+    border-radius: 2px ;
+    background-color: #fff ;
+    text-align: center ;
+    text-decoration: none ;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.zzim {
+    position: absolute;
+    left: 11px;
+    top: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.npay_Event {
+    width: 100%;
+    height: 60px;
+    font-weight: 200;
+}
+
+.npay_Event span {
+    width: 100px;
+}
+/*구매하기 디테일 버튼*/
+
+.detail-open {
+    height: 70px;
+    display: flex;
+}
+
+.buy_cart {
+    width: 24%;
+    height: 45px;
+    padding: 16.5px 5px;
+    color: var(--btn-color);
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px #000 solid;
+    margin: 0 10px 0 0 ;
+}
+
+.buy_button {
+    width: 24%;
+    height: 45px;
+    padding: 16.5px 5px;
+    color: var(--btn-color);
+    background-color: #000;
+    cursor: pointer;
+    text-align: center;
+    line-height: 10px;
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px #000 solid;
+}
+
+/* 리뷰 페이지 */
+.reviewsWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.reviews_icontent {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-right: solid 1px #d8dde5;
+}
+
+.score {
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.score span {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.reviews_rcontent {
+    width: 50%;
+    height: 150px;
+    font-size: 14px;
+}
+
+.score_filters {
+    margin-top: 10px;
+}
+
+.score_filter {
+    display: flex;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.writeButton {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score_gauge {
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 3px 0 3px 0;
+    border-radius: 8px;
+    background-color: #ebeff5;
+}
+
+.writeButton button {
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.score_title {
+    margin-right: 10px;
+    width: 70px;
+}
+
+.reviewtext {
+    width: 100%;
+    display: inline-block;
+}
+
+.reviewText{
+    text-align: center;
+    margin-top: 50px;
+    border-top:  1px solid #a8a8a8;
+    width: 100%;
+}
+
+.reviewText p {
+    margin-top: 30px;
+}
+
+/*Q&A*/
+.qAnda {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 14px;
+}
+
+.qAnda table {
+    width: 100%;
+}
+
+.qAnda tr {
+    border-bottom: 1px solid #a8a8a8;
+    height: 40px;
+}
+
+.qAnda tr td {
+    text-align: center;
+}
+
+.qAnda_num {
+    width: 10%;
+}
+
+.qAnda_title {
+    width: 50%;
+}
+
+.qAnda_title::after {
+    width: 25px;
+    height: 25px;
+    background-image: url(../../public/img/sub_page/ico_lock.gif) no-repeat center !important;
+}
+
+.qAnda_name {
+    width: 25%;
+}
+
+.qAnda_date{
+    width: 25%;
+} 
+

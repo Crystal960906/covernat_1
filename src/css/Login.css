@@ -1,0 +1,219 @@
+.container {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif ;
+}
+
+.Login_title_wrap {
+    padding-top: 55px;
+    padding-bottom: 36px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.sub_title {
+    color: #666;
+    font-size: 44px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 200;
+}
+
+
+.sub_title {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #171717;
+    width: 100%;
+    margin: 30px 0 50px 0;
+}
+
+.login_wrap {
+    width: 735px;
+    margin: 0 auto;
+}
+
+.inp_group {
+    float: left;
+    width: 525px;
+    padding-bottom: 16px;
+    margin-bottom: 26px;
+}
+
+.inp_group p label {
+    float: left;
+    width: 105px;
+    padding-bottom: 0;
+    line-height: 40px;
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+input {
+    height: 40px;
+    line-height: 38px;
+    padding-left: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    outline: none;
+    float: left;
+    width: 420px;
+}
+
+.inp_group p::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.btn_group {
+    float: right;
+    width: 190px;
+}
+
+.btn_group button {
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    padding: 0px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    background-color: #000000;
+    color: #fff;
+    border-color: rgb(51,51,51);
+    width: 180px;
+    height: 100px;
+}
+
+.btn_group .link {
+    list-style: none;
+    width: 180px;
+    font-size: 11px;
+}
+
+.btn_group .link li {
+    float: left;
+    position: relative;
+    margin: 0 13px 0 0;
+}
+
+.btn_group .link li::after {
+    position: absolute;
+    top: 4px;
+    width: 1px;
+    height: 12px;
+    background-color: #e2e2e2;
+    content: '';
+    right: 70px;
+}
+
+.btn_group .link li:first-child::after{
+    display: none;
+}
+
+.new_join_wrap {
+    border: 1px solid #ccc;
+    border-width: 1px 0 1px 0;
+}
+
+.join_email {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+.tit_join_email {
+    width: 354px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.join_opt {
+    width: 326px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #666;
+}
+
+.join_opt .btn_wrap {
+    width: 100%;
+    display: block;
+}
+
+.join_sns::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top:0;
+}
+
+.join_sns {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 0 ;
+    position: relative;
+}
+
+.new_join_wrap .tit_join_sns {
+    color: #777;
+    width: 354px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.join_opt_sns {
+    width: 326px;
+    background-color: #fae100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #666;
+}
+
+.join_opt_sns span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.join_opt_sns span::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../public/img/login/ico_kakao_32\ \(1\).svg);
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.new_join_wrap .sns_type li {
+    border-width: 0;
+    float: initial;
+    width: auto;
+    margin: 0 10px;
+    border-right: 1px solid #e2e2e2;
+    text-transform: uppercase;
+    text-align: center;
+    list-style: none;
+    background-color: salmon;
+}
+

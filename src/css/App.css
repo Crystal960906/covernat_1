@@ -1,0 +1,242 @@
+.main_wrap {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_wrap {
+  background-color: #0b0b0b;
+  height: 44px;
+}
+
+
+.title {
+  font-size: 23px;
+  font-weight: 600;
+  margin: 50px 0 20px 130px;
+  position: relative;
+  z-index: 100;
+}
+
+/* Banner&Nav&Logo */
+.container-fluid {
+  top:50px;
+  height: 100px;
+  position: fixed;
+  z-index: 300;
+}
+
+.nav_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: 14px;
+  position: relative;
+  z-index: 100;
+  position: sticky;
+  top:0;
+}
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 150px;
+  height: 38px;
+}
+
+a.nav-link {
+  color: #000000;
+}
+
+
+/*WOMAN*/
+.main_itembox h4{
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.main_itembox {
+  width: 270px;
+  height: 324px;
+  transition: all 0.5s linear; 
+}
+
+
+.main_itembox img:hover{
+  transition: all 0.5s linear; 
+}
+
+.main_itembox img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+
+
+.main_textbox {
+  display: flex;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.main_textbox p {
+  margin-right: 10px;
+}
+
+.main_textbox .price {
+  text-decoration:  line-through;
+  color: #bcbcbc;
+  font-weight: 600;
+}
+
+.main_textbox .sale_price {
+  font-weight: 600;
+}
+
+.main_textbox .discount {
+  color: #ff4800;
+  font-weight: 600;
+}
+
+
+/*배너*/
+.BNbox {
+  height: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBN {
+width: 600px;
+height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 130px 0 130px 0;
+}
+
+.mainBN img {
+  width: 620px;
+  margin-bottom: 20px;
+}
+
+.mainBN span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* COLLECTION */
+.collectionBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 630px;
+  margin: 0 0 150px 0;
+}
+
+.colBN {
+  width: 50%;
+  height: 630px;
+}
+
+
+/* COLLECTION_슬라이드*/ 
+.colItem .swiper {
+  width: 900px;
+  height: 470px;
+}
+
+.colItem {
+  background-color: #f3f3f3;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabButtons {
+  float: right;
+  width: 100%;
+  margin-right: 100px;
+  position: relative;
+  z-index: 100;
+  margin-top: -46px;
+
+}
+
+.tabButtons button {
+  float: right;
+  margin-left: 10px;
+}
+
+.Wbtn{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.Mbtn{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+}
+
+/*STYLING*/
+.styling_Box {
+  width: 100%;
+  height: 50;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.styling_Box img {
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/*푸터*/
+.info ul{
+  list-style: none;
+  float: left;
+  font-size: 11px;
+}
+
+.info_title {
+  margin: 70px 0 10px 0;
+  font-weight: 800;
+}
+
+.info  {
+  background-color: #f3f3f3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color:black
+}

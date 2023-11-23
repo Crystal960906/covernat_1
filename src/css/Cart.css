@@ -1,0 +1,55 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Name_button {
+    border: 1px solid #ddd;
+    font-size: 13px;
+    color: #666;
+    width: 12S0px;
+    height: 30px;
+    position: absolute;
+    top: 160px
+}
+
+.btn {
+    border: 1px solid #666;
+    color: #666;
+    font-size: 12px;
+}
+
+.Cart_wrap {
+    height: auto;
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.Cart_wrap .row {
+    width: 70%;
+}
+
+.col-sm-12 {
+    position: relative;
+}
+
+.col-sm-12 h5 {
+    font-size: 25px;
+} 
+
+.namelist{
+    position: absolute;
+    left: 10px;
+    top:90px
+}
