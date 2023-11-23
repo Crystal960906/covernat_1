@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/covernat_1/static/css/main.99bb01eb.css",
+    "main.js": "/covernat_1/static/js/main.8b426ead.js",
+    "static/js/787.310ef707.chunk.js": "/covernat_1/static/js/787.310ef707.chunk.js",
+    "static/media/npay_sp_text.png": "/covernat_1/static/media/npay_sp_text.f44f8612c27392f70a9b.png",
+    "index.html": "/covernat_1/index.html",
+    "static/media/ico_kakao_32 (1).svg": "/covernat_1/static/media/ico_kakao_32 (1).309deb12bd234509bf4a.svg",
+    "main.99bb01eb.css.map": "/covernat_1/static/css/main.99bb01eb.css.map",
+    "main.8b426ead.js.map": "/covernat_1/static/js/main.8b426ead.js.map",
+    "787.310ef707.chunk.js.map": "/covernat_1/static/js/787.310ef707.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99bb01eb.css",
+    "static/js/main.8b426ead.js"
+  ]
+}
